@@ -13,7 +13,6 @@ To address these challenges, we propose the development of a Personal Task Manag
    - Benefit: This helps users visually manage their time and effort based on task type, reducing overwhelm.
 
 2.Prioritization System: 
-   -Functionality: Implementing a prioritization matrix (e.g., Eisenhower Matrix) which allows users to classify tasks as important/urgent, important/not urgent, etc.
    -Benefit: By highlighting high-priority tasks, users can focus their efforts on what truly matters, enhancing decision-making.
 
 3.Time Blocking and Scheduling: 
