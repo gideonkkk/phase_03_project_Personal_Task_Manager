@@ -1,18 +1,18 @@
-from models import User, Task, Project, Category
+from app import User, Task, Project, Category
 from database import SessionLocal
 
 def seed_data():
     db = SessionLocal()
 
-    user1 = User(name='Alpha Blonde', email='alpha@example.com')
-    user2 = User(name='Johnny Bravo', email='bravo@example.com')
-    user3 = User(name='Charlie Chaplin', email='charlie@example.com')
+    user1 = User(username='Dennis Brown', email='delta@example.com')
+    user2 = User(username='Future Fambo', email='falcon@example.com')
+    user3 = User(username='Eric Donald', email='eagle@example.com')
 
     db.add_all([user1, user2, user3])
     db.commit()
 
-    work_category = Category(name='Work')
-    personal_category = Category(name='Personal')
+    work_category = Category(name='Hobby')
+    personal_category = Category(name='Family')
 
     db.add_all([work_category, personal_category])
     db.commit()

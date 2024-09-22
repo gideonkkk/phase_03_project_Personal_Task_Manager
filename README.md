@@ -2,7 +2,7 @@
 ## Task Manager Documentation
 
 ## Problem Statement
-In today's fast-paced world, individuals often face challenges in managing multiple tasks efficiently. The inability to prioritize tasks effectively can lead to decreased productivity, missed deadlines, and increased stress levels. Many individuals find themselves overwhelmed by their to-do lists and struggle to focus on what is truly important. This document outlines the problems associated with ineffective task management and proposes solutions through the implementation of a personal task manager designed to help users prioritize their tasks effectively.
+In today's fast-paced world, students often face challenges in managing multiple tasks efficiently. The inability to prioritize tasks effectively can lead to decreased productivity, missed deadlines, and increased stress levels. Many individuals find themselves overwhelmed by their to-do lists and struggle to focus on what is truly important. This document outlines the problems associated with ineffective task management and proposes solutions through the implementation of a personal task manager designed to help users prioritize their tasks effectively.
 
 ## Proposed Solution
 To address these challenges, we propose the development of a Personal Task Manager (PTM) that incorporates essential features and methodologies for effective task management. Below are key features and how they help solve the identified problems:

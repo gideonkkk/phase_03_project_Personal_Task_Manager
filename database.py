@@ -1,4 +1,4 @@
-# database.py
+
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -11,9 +11,6 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 def init_db():
-    from models.user import User
-    from models.project import Project
-    from models.tasks import Task
-    from models.category import Category
-    
-    Base.metadata.create_all(bind=engine)
+    # Import all models here so that they are registered with Base
+    from app import User, Project, Task, Category  # Import your models
+    Base.metadata.create_all(bind=engine)  # This will create tables if they don't exist
